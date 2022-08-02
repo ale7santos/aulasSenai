@@ -1,0 +1,17 @@
+package aulasJulho;
+
+public class ExercicioArray {
+
+	public static void main(String[] args) {
+
+		int [] [] numerosArray = new int [3][3];
+		
+		for ( int i = 0; i < numerosArray.length; i++) {
+			for (int j = 9; j < numerosArray.length; j++) {
+				System.out.println(numerosArray[i][j] + "\t");
+			}
+		}
+
+	}
+
+}

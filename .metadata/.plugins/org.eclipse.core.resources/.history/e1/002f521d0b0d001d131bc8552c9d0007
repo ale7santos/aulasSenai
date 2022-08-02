@@ -1,0 +1,23 @@
+package aulaTerca;
+
+import java.util.Scanner;
+
+public class Strings {
+
+	public static void main(String[] args) {
+
+		
+		Scanner sc = new Scanner (System.in);
+		
+		String frase = "Aula Java professor Luan dia vinte e seis";
+		char caractere = 's';
+		
+		System.out.println(frase.length());
+		System.out.println(frase.charAt(2));
+		System.out.println(frase.lastIndexOf("Z"));
+		
+		sc.close();
+
+	}
+
+}

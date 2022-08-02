@@ -1,0 +1,24 @@
+package aulasJulho;
+
+import java.util.Scanner;
+
+public class SistemaVotos {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite 1 para votar em Molusco");
+		System.out.println("Digite 2 para votar em Nelson");
+		System.out.println("Digite 3 para votar em Gomes");
+		System.out.println("Digite 4 para votar em Bolim");
+		
+		int voto = sc.nextInt();
+		
+		while (voto >= 0) {
+			System.out.println("Teste");
+		}
+		
+		sc.close();
+	}
+
+}

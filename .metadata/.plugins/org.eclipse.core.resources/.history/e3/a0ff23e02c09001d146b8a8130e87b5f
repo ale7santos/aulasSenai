@@ -1,0 +1,21 @@
+package aulas;
+
+public class PrimeiraCondicional {
+
+	public static void main(String[] args) {
+		
+		int a = 10;
+		int b = 20;
+		int c = 10;
+		
+		double d = 10.0;
+		
+		if (a >= d) {
+			System.out.println("Sim");
+		}else {
+			System.out.println("Não");
+		}
+
+	}
+
+}

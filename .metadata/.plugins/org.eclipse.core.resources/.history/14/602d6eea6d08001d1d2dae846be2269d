@@ -1,0 +1,29 @@
+package aulas;
+
+public class Exercicio {
+	public static void main(String[args]) {
+		
+	/*•Faça um Programa que peça dois
+	números e imprima a soma; */
+	
+	int numero1 = 10;
+	int numero2 = 15;
+	
+	Scanner leia = new Scanner(System.in);
+	
+	syso
+
+
+	/*•Faça
+	um Programa que peça as 4 notas bimestrais e mostre a média.
+	•Faça
+	um Programa que pergunte quanto você ganha por hora e o número de horas
+	trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.*/
+
+
+	/*•Faça
+	um Programa que peça a temperatura em graus Fahrenheit, transforme e mostre a
+	temperatura em graus Celsius.*/
+
+}
+}

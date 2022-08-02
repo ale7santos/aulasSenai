@@ -1,0 +1,10 @@
+package algoritmosLogica;
+
+public class FormulaGasolina {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

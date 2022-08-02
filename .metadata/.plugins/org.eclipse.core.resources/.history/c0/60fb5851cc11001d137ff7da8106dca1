@@ -1,0 +1,44 @@
+package algoritmosLogica;
+
+import java.util.Scanner;
+
+public class IntroducaoFuncao {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		double altura =0;
+		double peso =0;
+		int idade;
+		char sexo;
+		double imc = Math.pow(altura, altura) / peso;
+		
+		//IMC HOMEM < 18,5 ABAIXO| > 25 SOBREPESO | 18,5 E 25 OK 
+		//IMC MULHER
+		
+		System.out.println("Digite sua altura: ");
+		altura = sc.nextDouble();
+		
+		System.out.println("Digite seu peso: ");
+		peso = sc.nextDouble();
+		
+		System.out.println("Digite a sua idade: ");
+		idade = sc.nextInt();
+		
+		System.out.println("Digite o seu sexo: ");
+		sexo = sc.next().charAt(0);
+		
+		if(imc < 18) {
+			System.out.println("Você está abaixo do peso!");
+		}else if(imc > 18 || imc < 25) {
+			System.out.println("Você está no peso ideal!");
+		}else if(imc > 25) {
+			System.out.println("Você está acima do peso!");
+		}
+		System.out.println("A sua altura é " + altura + ", o seu peso é " + peso + ", a sua idade é " + idade + " e o seu sexo é " + sexo);
+		sc.close();
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package aulas;
+
+public class PrimeiroExercicio {
+	public static void main(String [] args) {
+		
+		int minhaIdade = 30;
+		int idadeProfessor = 32;
+		
+		System.out.println("Essas são as minhas variáveis: " + minhaIdade + "\n" + idadeProfessor);
+		
+		
+		
+	}
+}

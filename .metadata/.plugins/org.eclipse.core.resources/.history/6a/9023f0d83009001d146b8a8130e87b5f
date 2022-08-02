@@ -1,0 +1,34 @@
+package aulas;
+
+public class PrimeiraCondicional {
+
+	public static void main(String[] args) {
+		
+		int a = 10;
+		int b = 20;
+		int c = 10;
+		
+		double d = 10.0;
+		
+		boolean v = true;
+		boolean f = false;
+		
+		/* if () {
+			System.out.println("Sim");
+		}else {
+			System.out.println("Não!"); */
+		int ano = 2020;
+		
+		if(ano % 4 == 0) {
+			System.out.println("A variável A é par");
+		}else {
+			System.out.println("É impar");
+		}
+	}
+}
+		
+	
+
+	
+
+

@@ -1,0 +1,10 @@
+package aulas;
+
+public class conversorDeTemperatura {
+
+	public static void main(String[] args) {
+
+
+	}
+
+}
